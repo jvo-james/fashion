@@ -9,21 +9,21 @@
       eyebrow: 'Summer 2026',
       title: 'NOCTURNE',
       subtitle: 'An after-dark study in silk, metal and immaculate tailoring.',
-      image: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2200&q=90',
+      image: 'images/h1.webp',
       position: 'center 34%'
     },
     {
       eyebrow: 'The Palazzo Edit',
       title: 'AUREATE',
       subtitle: 'Sunlit ceremony. Sculpted silhouettes. An uncompromising point of view.',
-      image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=2200&q=90',
+      image: 'images/h2.webp',
       position: 'center 28%'
     },
     {
       eyebrow: 'Private Collection',
       title: 'VELLUM',
       subtitle: 'A quiet language of texture, precision and modern opulence.',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=2200&q=90',
+      image: 'images/h3.webp',
       position: 'center 38%'
     }
   ];
@@ -83,7 +83,7 @@
 
       <section class="editorial-banner editorial-banner--women" aria-labelledby="women-campaign-title">
         <a href="shop.html?category=women" class="editorial-banner__media">
-          ${campaignImage('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=2200&q=88', 'AURENZA women’s editorial campaign')}
+          ${campaignImage('images/w1.jpg', 'AURENZA women’s editorial campaign')}
         </a>
         <div class="editorial-banner__copy editorial-banner__copy--left">
           <p class="eyebrow">La Notte 2026</p>
@@ -101,7 +101,7 @@
 
       <section class="editorial-banner editorial-banner--men" aria-labelledby="men-campaign-title">
         <a href="shop.html?category=men" class="editorial-banner__media">
-          ${campaignImage('https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?auto=format&fit=crop&w=2200&q=88', 'AURENZA men’s editorial campaign')}
+          ${campaignImage('images/m1.webp', 'AURENZA men’s editorial campaign')}
         </a>
         <div class="editorial-banner__copy editorial-banner__copy--right">
           <p class="eyebrow">Palazzo Form</p>
@@ -117,15 +117,15 @@
           <a class="text-link" href="shop.html?category=women">Shop all ${UI.ICONS.arrow}</a>
         </header>
         <div class="category-editorial__grid">
-          ${categoryCard('bags', 'Sculpted Bags', 'Objects of desire, engineered for daily ritual.', 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1400&q=88', 'category-card--large')}
-          ${categoryCard('shoes', 'Shoes After Dark', 'Metal, satin and decisive proportions.', 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1400&q=88')}
-          ${categoryCard('jewelry', 'Aureate Jewelry', 'Sculpture translated into adornment.', 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1400&q=88')}
-          ${categoryCard('lifestyle', 'The Palazzo Home', 'A complete language for the interior.', 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=88', 'category-card--wide')}
+          ${categoryCard('bags', 'Sculpted Bags', 'Objects of desire, engineered for daily ritual.', 'images/b1.jpg', 'category-card--large')}
+          ${categoryCard('shoes', 'Shoes After Dark', 'Metal, satin and decisive proportions.', 'images/s1.jpg')}
+          ${categoryCard('jewelry', 'Aureate Jewelry', 'Sculpture translated into adornment.', 'images/j1.jpg')}
+          ${categoryCard('lifestyle', 'The Palazzo Home', 'A complete language for the interior.', 'images/l1.jpg', 'category-card--large')}
         </div>
       </section>
 
       <section class="journal-strip" aria-labelledby="journal-title">
-        <div class="journal-strip__image">${campaignImage('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1800&q=86', 'AURENZA atelier clothing rail')}</div>
+        <div class="journal-strip__image">${campaignImage('images/journal.jpg', 'AURENZA atelier clothing rail')}</div>
         <div class="journal-strip__content">
           <p class="eyebrow">Atelier Journal 04</p>
           <h2 id="journal-title">The discipline behind the drama</h2>
