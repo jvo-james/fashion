@@ -6,7 +6,7 @@
 
   const IMAGE_BANK = {
     women: [
-      'photo-1539109136881-3be0616acf4b', 'photo-1529139574466-a303027c1d8b',
+      'images/w2.jpg', 'images/w3.jpg',
       'photo-1490481651871-ab68de25d43d', 'photo-1509631179647-0177331693ae',
       'photo-1515886657613-9f3515b0c78f', 'photo-1543076447-215ad9ba6923',
       'photo-1525507119028-ed4c629a60a3', 'photo-1503342217505-b0a15ec3261c',
