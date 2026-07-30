@@ -9,14 +9,14 @@
       eyebrow: 'Summer 2026',
       title: 'NOCTURNE',
       subtitle: 'An after-dark study in silk, metal and immaculate tailoring.',
-      image: 'images/h1.webp',
+      image: 'images/h4.webp',
       position: 'center 34%'
     },
     {
       eyebrow: 'The Palazzo Edit',
       title: 'AUREATE',
       subtitle: 'Sunlit ceremony. Sculpted silhouettes. An uncompromising point of view.',
-      image: 'images/h2.webp',
+      image: 'images/h1.webp',
       position: 'center 28%'
     },
     {
