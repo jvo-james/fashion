@@ -1,33 +1,7 @@
 (() => {
   'use strict';
 
-  /*
-    AURENZA LOCAL-IMAGE CATALOG
-    ---------------------------
-    Replace your existing assets/js/catalog.js with this entire file.
-
-    Every visual product has a fixed name, category, color and image stem.
-    The hover image is always the same product photographed from another angle.
-
-    Required folders:
-      assets/images/products/women/
-      assets/images/products/men/
-      assets/images/products/bags/
-      assets/images/products/shoes/
-      assets/images/products/accessories/
-      assets/images/products/jewelry/
-      assets/images/products/lifestyle/
-      assets/images/products/gifts/
-
-    Example files for the first women's product:
-      women-01-front.webp
-      women-01-hover.webp
-      women-01-back.webp
-      women-01-detail.webp
-
-    Change IMAGE_EXTENSION to 'jpg' or 'png' when needed.
-    Set USE_EXTENDED_GALLERY to false when you only have front + hover images.
-  */
+ 
 
   const PRODUCT_IMAGE_ROOT = 'assets/images/products';
   const IMAGE_EXTENSION = 'webp';
@@ -90,7 +64,7 @@
         { file: 'men-05', name: 'Red Pleated Formal Trousers', type: 'Trousers', color: 'Red', material: 'Wool', fit: 'Tailored', basePrice: 850, search: 'red pleated formal trousers men luxury product photography' },
         { file: 'men-06', name: 'Pink Merino Knit Cardigan', type: 'Knitwear', color: 'Pink', material: 'Merino Wool', fit: 'Relaxed', basePrice: 970, search: 'pink merino cardigan men luxury fashion product photography' },
         { file: 'men-07', name: 'Green Suede Overshirt', type: 'Outerwear', color: 'Green', material: 'Suede', fit: 'Regular', basePrice: 1680, search: 'green suede overshirt men luxury ecommerce photography' },
-        { file: 'men-08', name: 'Silver Embroidered Cotton T-Shirt', type: 'T-Shirts', color: 'Silver', material: 'Cotton', fit: 'Regular', basePrice: 490, search: 'silver embroidered cotton t shirt men luxury product photography' },
+        { file: 'men-08', name: 'White Embroidered Cotton T-Shirt', type: 'T-Shirts', color: 'White', material: 'Cotton', fit: 'Regular', basePrice: 490, search: 'white embroidered cotton t shirt men luxury product photography' },
         { file: 'men-09', name: 'Brown Leather Bomber Jacket', type: 'Outerwear', color: 'Brown', material: 'Lambskin', fit: 'Regular', basePrice: 2450, search: 'brown leather bomber jacket men luxury fashion product photography' },
         { file: 'men-10', name: 'White Cotton Poplin Dress Shirt', type: 'Shirts', color: 'White', material: 'Cotton', fit: 'Slim', basePrice: 620, search: 'white cotton poplin dress shirt men luxury ecommerce photography' },
         { file: 'men-11', name: 'Blue Straight-Leg Denim Jeans', type: 'Denim', color: 'Blue', material: 'Denim', fit: 'Regular', basePrice: 690, search: 'blue straight leg denim jeans men luxury product photography' },
