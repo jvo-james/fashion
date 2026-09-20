@@ -195,7 +195,7 @@
             <button class="icon-button" type="button" data-open-mobile-nav aria-label="Open menu">${ICONS.menu}</button>
             <button class="icon-button" type="button" data-open-search aria-label="Search">${ICONS.search}</button>
           </div>
-          <a href="index.html" class="brandmark" aria-label="The Set home"><img src="images/the-set-logo.png" alt="The Set" /></a>
+          <a href="index.html" class="brandmark" aria-label="The Set home">The Set</a>
           <nav class="desktop-nav" aria-label="Primary navigation">
             <a href="shop.html?category=women" class="nav-link ${activeCategory === 'women' ? 'is-active' : ''}" data-mega="women">Women</a>
             <a href="shop.html?category=men" class="nav-link ${activeCategory === 'men' ? 'is-active' : ''}" data-mega="men">Men</a>
@@ -315,7 +315,7 @@
         <button class="overlay-layer__backdrop" type="button" data-close-layer aria-label="Close menu"></button>
         <div class="overlay-layer__panel mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Navigation menu">
           <header class="overlay-layer__header mobile-nav__header">
-            <span class="brandmark brandmark--small"><img src="images/the-set-logo.png" alt="The Set" /></span>
+            <span class="brandmark brandmark--small">The Set</span>
             <button class="icon-button" type="button" data-close-layer aria-label="Close menu">${ICONS.close}</button>
           </header>
           <nav class="mobile-nav" aria-label="Mobile navigation">

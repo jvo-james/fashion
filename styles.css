@@ -78,9 +78,8 @@ button, input, select, textarea { border-radius: 0; }
 .announcement svg { width: 14px; height: 14px; }
 .header-bar { position: relative; z-index: 3; display: grid; grid-template-columns: minmax(180px, .8fr) minmax(520px, 1.8fr) minmax(300px, 1fr); align-items: center; height: var(--header-height); padding: 0 var(--gutter); border-bottom: 1px solid transparent; background: white; }
 .is-condensed .header-bar, .site-header--product .header-bar { border-color: rgba(0,0,0,.1); }
-.brandmark { display: block; width: min(150px, 18vw); }
-.brandmark img { display: block; width: 100%; height: auto; }
-.brandmark--small { width: 132px; }
+.brandmark { display: inline-flex; align-items: center; justify-content: flex-start; width: max-content; max-width: 100%; font-family: "Brush Script MT", "Segoe Print", "Bradley Hand", cursive; font-size: clamp(38px, 3.3vw, 54px); font-weight: 600; letter-spacing: -.055em; line-height: .9; white-space: nowrap; }
+.brandmark--small { font-size: 30px; }
 .desktop-nav { display: flex; justify-content: center; gap: clamp(20px, 2.1vw, 38px); height: 100%; }
 .nav-link { position: relative; display: flex; align-items: center; height: 100%; font-size: 10px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
 .nav-link::after { position: absolute; right: 0; bottom: 20px; left: 0; height: 1px; background: currentColor; content: ""; transform: scaleX(0); transform-origin: right; transition: transform 190ms var(--ease-interface); }
@@ -552,7 +551,7 @@ button, input, select, textarea { border-radius: 0; }
   .announcement p { font-size: 8px; letter-spacing: .1em; }
   .header-bar { height: var(--header-height); }
   .header-bar__mobile-left .icon-button { width: 38px; }
-  .brandmark { font-size: 26px; }
+  .brandmark { font-size: 31px; }
   .header-actions { gap: 0; }
   .header-actions > :not(.bag-button) { display: none; }
   .bag-button { width: 43px; }
